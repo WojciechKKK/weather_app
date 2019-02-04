@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body:after{
+    content: "";
+    background: url('../image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* container */
+.allBody{
+    padding-top: 1vh;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    min-width: 280px;
+    position: relative;
+}
+
+
+/* NavLanguage Component */
+
+.eng, .pl {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: transparent;
+    cursor: pointer;
+}
+
+.eng{
+    right:40px;
+    background: url('../image/great-britain.png');
+    background-size: cover;
+}
+
+.pl{
+    right: 5px;
+    background: url('../image/poland.png');
+    background-size: cover
+}
+
+
+/* Header Component */
+
+div.placeTitle{
+    font-size: 1rem;
+    margin-top: 1rem
+}
+
+div.placeTitle p {
+    color: #68174f;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+    font-weight: 700
+}
+
+div.placeTitle span.spanBorder {
+    border-bottom: 2px solid #68174f;
+    padding-bottom: 4px
+}
+
+
+/* LocalisationWeather*/
+
+div.placeWeather{
+    background: transparent;
+}
+
+button.showInfo{
+    color: black;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black
+}
+
+.weatherInfomation{
+    text-align: center;
+    color: black;
+    padding-top: 1rem;
+}
+
+.city{
+    font-size: 1.6rem;
+    /* line-height: 80%; */
+    float: left;
+    width: 50%;
+    /* margin-top: 25px */
+    /* border: 1px solid red */
+}
+
+.temp{
+    font-size: 5rem;
+    float: right;
+    width: 50%;
+}
+
+.country{
+    font-size: 1rem;
+    color: #FFF;
+    display: block
+}
+
+.cityAndCountry{
+
+}
+
+.cityAndCountry:before, .cityAndCountry:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+.flag{
+    width: 25px;
+    margin-left: 10px;
+    height: 20px
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0
+}
+
+td{
+    color: green;
+    text-transform: uppercase;
+    /* font-weight: 700; */
+    font-size: 0.8rem;
+    height: 4rem;
+    width: 50%
+}
+
+.conditions{
+    font-size: 1.5rem;
+    color: #000;
+    /* font-weight: 500; */
+    text-transform: none
+}
+
+.imgWeather{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.imgWeatherAndConditions{
+    position: relative
+}
+/* for description weather */
+/* .descInfo{
+    font-size: 0.4em;
+    position: absolute; 
+    top: 100%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+} */
+
+
+/* SelectOption Component */
+
+.placeSelectAndOption{
+    color: black;
+    background: transparent;
+    border: 1px solid #000;
+}
+
+
+/* ButtonSearch Component */
+
+
+div.placeBtn button, div.placeSelect select, div.placeInput input, div.placeCountry select, button.showInfo{
+    /* width: 100%; */
+    border-radius: 50px;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #000;
+    width: 100%
+}
+
+
+div.placeInput, div.placeCountry{
+    display: inline-block;
+}
+
+div.placeInput{
+    width: 70%
+}
+
+div.placeCountry{
+    width: 27%;
+}
+
+div.placeCountry select{
+    margin-left: 0.5rem
+
+}
+
+
+/* NewInputSearch Component */
+
+
+
+/* DataWeather Component */
+
+
+.dataInformation th {
+    font-weight: 100;
+    color: green
+}
+
+.dataInformation td{
+    color: black;
+    font-weight: 700
+}
+
+.dataInformation table {
+    width: 90%
+}
+
+
+/* Error Component */
+
+.errorCity{
+    color: rgb(255,0,0);
+    text-align: center;
+    margin: 2rem auto;
+    width: 65%
+}
+
+
+/* Legend Component*/
+
+.legendInfo{
+    font-size: 0.7rem;
+    text-align: center;
+    width: 70%;
+    color: green
+}
+
+
+/* Footer Component */
+.footerInfo{
+    /* position: absolute; */
+    bottom: 0.1rem;
+    font-size: 0.1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+/* for dektop */
+
+@media (max-width: 400px){
+    .allBody{
+        padding-top: 1vh;
+        max-width: 90%;
+        margin: 0 auto;
+        overflow: auto;
+        height: 100%
+    }
+
+
+}
+
+@media (min-width: 401px){
+    .allBody{
+        padding-top: 1vh;
+        max-width: 350px ;
+        margin: 0 auto;
+        overflow: auto;
+        height: 100%
+    }
+    
+    .footerInfo{
+        margin-top: 2rem
+    }
+  
+}
+
+@media (min-width: 768px){
+    .allBody{
+        padding-top: 1vh;
+        max-width: 400px ;
+        margin: 0 auto;
+        overflow: auto;
+        height: 100%
+    }
+    html{
+        font-size: 18px
+    }
+    .footerInfo{
+        font-size: 0.4rem;
+    }
+}
+
+/* desktop */
+@media (min-width: 1280px) and (min-height: 700px){
+    .allBody{
+        padding-top: 1vh;
+        max-width: 500px ;
+        margin: 0 auto;
+        overflow: auto;
+        height: 100%
+    }
+
+    div.placeBtn button, div.placeSelect select, div.placeInput input, div.placeCountry select, button.showInfo{
+        /* width: 100%; */
+        border-radius: 50px;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        background: transparent;
+        border: 1px solid black;
+        width: 100%
+    }
+    html{
+        font-size: 20px
+    }
+
+  
+}

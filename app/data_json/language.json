@@ -1,0 +1,20 @@
+{
+    "eng": {
+        "header":"Weather in your city",
+        "header2": "Weather in other city",
+        "button": ["Show", "Hide"],
+        "location": ["wind", "clouds", "pressure", "humidity"],
+        "errors": ["No internet connection", "Incorrect city name. Please enter another one."],
+        "input": ["enter name of the city", "other city"],
+        "legend": ["insert english name of the city"]
+    },                                           
+    "pl": {
+        "header":"Pogoda w twoim mieście",
+        "header2": "Pogoda w innym mieście",
+        "button": ["Pokaż", "Ukryj"],
+        "location": ["wiatr", "zachmurzenie", "ciśnienie", "wilgotność"],
+        "errors": ["Brak połączenia z internetem", "Błędna nazwa miasta. Proszę wprowadź inną."],
+        "input": ["wpisz nazwę miejsowości", "inne miasto"],
+        "legend": ["wpisz miejscowość w języku angielskim"]
+    }
+}

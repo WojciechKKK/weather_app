@@ -1,0 +1,28 @@
+[
+   {
+       "name": "Polska",
+       "name2": "Poland",
+       "code": "pl"
+   }, 
+   {
+       "name": "Wielka Brytania",
+       "name2": "Great Britain",
+       "code": "gb"
+   },
+   {
+       "name": "Niemcy",
+       "name2": "Germany",
+       "code": "de"
+   },
+   {
+       "name": "Włochy",
+       "name2": "Italy",
+       "code": "it"
+   },
+   {
+    "name": "Stany Zjednoczone",
+    "name2": "USA",
+    "code": "us"
+    }
+]
+
