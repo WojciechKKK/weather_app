@@ -24,4 +24,4 @@ $ npm start
 
 To run this project, use below link:
 
-https://wojciechkkk.github.io/weather_app/index.html
+https://wojciechkkk.github.io/weather_app
