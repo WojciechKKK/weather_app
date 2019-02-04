@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 #### General info
-The apps shows the current weather conditions for the selected city. 
+The apps shows the weather conditions for the current location (ip address) and other cities. 
 
 	
 #### Technologies
@@ -24,4 +24,4 @@ $ npm start
 
 To run this project, use below link:
 
-https://wojciechkkk.github.io/weather_app
+https://wojciechkkk.github.io/weather_app/index.html
